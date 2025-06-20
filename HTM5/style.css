@@ -1,0 +1,28 @@
+h2::first-letter {
+    color : green;
+}
+
+h1 {
+    color : red;
+}
+h1 {
+    color : blue;
+}
+
+
+.post button:hover {
+    background-color: yellow;
+}
+
+button {
+    background-color: green;
+    color: white;
+}
+
+form {
+    color: lightblue;
+}
+
+button {
+    color : inherit;
+}
