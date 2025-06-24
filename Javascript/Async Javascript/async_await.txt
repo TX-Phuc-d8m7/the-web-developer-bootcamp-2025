@@ -1,0 +1,5 @@
+The async keyword
+
++ Async  functions always return a Promises
++ If the function returns a value, the promise will be resolved with that value
++ If the function throws an exception, the promise will be rejected

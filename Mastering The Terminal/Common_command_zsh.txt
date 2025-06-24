@@ -1,0 +1,43 @@
+Terminal : a text-based interface to your computer, originally a physical object, but now we use software terminals
+
+Shell : the program running on the terminal 
+Ex : Terminal is the ATM, Shell is the software running on the ATM 
+
+Bash : one of the most popular shells (default on a Mac)
+
+In Macbook Terminal : zsh - Zshell
+
+pwd : show current folder path
+
+
+Common command in Zshell
+
+ls : stand for List => use to list the contents of your current directory
+pwd : stand for print working directory where you currently are
+cd folder_name/ : change directory
+clear : xoá màn hình làm việc
+cd .. : back up 1 directory
+cd / : quay trở về Root Directory
+cd ~ : quay trở về Home Directory
+cd ../../Pets
+
+Relative and Absolute Paths
+- Absolute path thì bắt đầu với dấu /
+- Relative path : đường dẫn tương đối
+
+
+mkdir folder_name
+cd folder_name
+mkdir sub1_folder_name sub2_folder_name
+mkdir ../folder_name
+
+
+man ls : đưa thông tin về một câu lệnh, các flag của câu lệnh, chẳng hạn ở đây là ls
+
+touch : dùng để tạo file hoặc nhiều file
+
+rm : dùng để xoá file hoặc thư mục 
+
+rmdir folder : xoá thư mục
+
+rm - rf : dùng để xoá 1 directory : r - recursive, f - force

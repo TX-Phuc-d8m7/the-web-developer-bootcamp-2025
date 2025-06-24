@@ -28,7 +28,12 @@ const user = {
     city: 'Da Nang'
 
 }
-
 const {email} = user;
+
+
+// Destructuring Params
+
+
+
 
 
