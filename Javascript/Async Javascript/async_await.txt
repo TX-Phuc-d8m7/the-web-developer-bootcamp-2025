@@ -3,3 +3,18 @@ The async keyword
 + Async  functions always return a Promises
 + If the function returns a value, the promise will be resolved with that value
 + If the function throws an exception, the promise will be rejected
+
+The await keyword
++ We can only use the await keyword inside of functions declared with async
++ await will pause the execution of the function, waiting for a promise to be resolved
+
+Promise là khái niệm được sinh ra để giải quyết vấn đề Callback Hell
+Khi sử dụng Promise sẽ có sử dụng .then, .catch để xử lí các kết quả trả về của Promise, cách này khá dài, xử lý khá nhiều trường hợp
+
+=> Khái niệm async và await ra đời để rút ngắn syntax, làm cho code gọn hơn 
+
+async là khái niệm khi đặt trước tên 1 function thì kiểu trả về của function đó là 1 Promise
+await là một khái niệm chỉ được sử dung bên trong một async function
+
+
+Để handle error của promise trả về, ta sử dụng try-catch để xử lí
