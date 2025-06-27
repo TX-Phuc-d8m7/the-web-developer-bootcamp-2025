@@ -1,12 +1,14 @@
 import "./App.css";
 import Counter from "./Counter";
 import Dumbo from "./Dumbo";
+import EmojiClicker from "./EmojiClicker";
 import ScoreKeeper from "./ScoreKeeper";
 
 function App() {
   return (
     <>
-      <ScoreKeeper />
+      {/* <ScoreKeeper /> */}
+      <EmojiClicker />
     </>
   );
 }
