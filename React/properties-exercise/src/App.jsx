@@ -1,5 +1,6 @@
 import "./App.css";
 import PropertyList from "./PropertyList";
+import Clicker from "./Clicker";
 const properties = [
   { id: 129031, name: "Desert Yurt", rating: 4.9, price: 150 },
   { id: 129331, name: "Lone Mountain Cabin", rating: 4.8, price: 250 },
@@ -12,7 +13,8 @@ const properties = [
 function App() {
   return (
     <div>
-      <PropertyList properties={properties} />
+      <Clicker message="Hi" buttonText="Please click me" />
+      <Clicker message="Please Stop Clicking Me" buttonText="Do Not Click" />
     </div>
   );
 }
