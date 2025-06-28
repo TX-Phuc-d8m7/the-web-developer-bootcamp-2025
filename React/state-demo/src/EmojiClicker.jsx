@@ -20,6 +20,14 @@ export default function EmojiClicker() {
     setEmojis((previousEmojis) => previousEmojis.filter((e) => e.id !== id));
   };
 
+  const setAllHeart = () => {
+    setEmojis((prevEmojis) => {
+      return prevEmojis.map((e) => {
+        return { ...e, emoji: "🫶🏻" };
+      });
+    });
+  };
+
   return (
     <div>
       {emojis.map((e) => (
@@ -32,6 +40,7 @@ export default function EmojiClicker() {
         </span>
       ))}
       <button onClick={addEmoji}>Add Emoji</button>
+      <button onClick={setAllHeart}>Set All to Heart</button>
     </div>
   );
 }

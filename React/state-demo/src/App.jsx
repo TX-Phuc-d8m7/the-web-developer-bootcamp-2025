@@ -7,8 +7,8 @@ import ScoreKeeper from "./ScoreKeeper";
 function App() {
   return (
     <>
-      {/* <ScoreKeeper /> */}
-      <EmojiClicker />
+      <ScoreKeeper numPlayers={5} target={3} />
+      {/* <EmojiClicker /> */}
     </>
   );
 }
